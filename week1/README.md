@@ -22,10 +22,10 @@
 * 按照mask中的True进行索引拼接得到一维张量返回
 * 最后返回的是一维张量
 ### 小tips，tensor.le/lt/ge/gt, 会得到True or False，需要指定一个数来进行比较
-- le is mean less than or euqal
-- lt is mean less
-- ge is mean greater than or equal 
-- gt greater le lt 
+1. le is mean less than or euqal
+2. lt is mean less
+3. ge is mean greater than or equal 
+4. gt greater le lt 
 
 ## reshape
 * 变换张量形状。当张量在内存中是连续时，返回的张量和原来的张量共享数据内存，改变一个变量时，另一个变量也会被改变
