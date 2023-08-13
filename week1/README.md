@@ -62,7 +62,7 @@
 
 ## torch.addcdiv()
 
-- 计算公式为：out ${i}=\operatorname{input}{i}+$ value $\times \frac{\text { tensor } 1{i}}{\text { tensor } 2{i}}$
+- 计算公式为：out(i) = input(i) + value _ tensor1(i) _ tensor2(i)
 
 ## torch.addcmul()
 
